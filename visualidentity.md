@@ -67,3 +67,7 @@ Terse, technical, lower case where the site uses it. Numbers before adjectives. 
 ## 7. Provenance and rights
 
 Every file here was copied on 2026-10-14 from IMD's public pages: imd.fun (icon, favicon, app icon, share card, walking Pepe, stylesheet tokens) and imdradar.site (coin logos, Radar logo and icon, font list); the 800 px coin logo is the image on IMD's DexScreener listing. The marks and art belong to IMD and to their artists. Pepe the Frog is Matt Furie's character. This package claims no ownership and grants no licence; it is a record of the current identity, offered so the community vote can confirm it as the base. Hashes of every file are in `MANIFEST.txt`.
+
+## 8. Make your own
+
+`template/visualidentity-template.md` is a fill-in copy of this guide for a new project in the IMD style: keep the tokens, type and rules, and make the mark the IMD coin Pepe with one or two trait changes. It includes the image-job request text to draw that mark.
