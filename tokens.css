@@ -1,3 +1,16 @@
-/* IMD visual identity tokens, copied from imd.fun's stylesheet on 2026-10-14. */
-:root{color-scheme:light;--paper:#fff;--ink:#000;--dim:#555;--faint:#999;--mute:#bbb;--soft:#e6e6e6;--hover:#f4f4f4;--seg-mid:#666;--seg-light:#cfcfcf;--alarm:#b3261e;--ok:#1f9d55;--rule:1.5px solid var(--ink);--mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;--gutter:clamp(16px,4vw,34px);--label:11px;--track:0.06em;--pill-h:40px}
-:root[data-theme=dark]{color-scheme:dark;--paper:#000;--ink:#fff;--dim:#9a9a9a;--faint:#666;--mute:#4a4a4a;--soft:#262626;--hover:#141414;--seg-mid:#8a8a8a;--seg-light:#3a3a3a;--alarm:#ff6b62;--ok:#3ecf7a;--rule:1.5px solid #fff}
+/* IMD Family visual identity, tokens. Default theme: slate. Others: stone, white, black.
+   Set the theme with <html data-theme="slate|stone|white|black">. No attribute = slate. */
+:root,:root[data-theme=slate]{color-scheme:dark;
+  --paper:#1C2128;--ink:#E8E4DC;--dim:#A3A9B1;--faint:#6E7681;--mute:#4A525C;--soft:#2A313A;--hover:#242A32;
+  --accent:#D8C398;--ok:#3ECF7A;--alarm:#FF6B62;--seg-light:#3A424C}
+:root[data-theme=stone]{color-scheme:light;
+  --paper:#ECE8E1;--ink:#222831;--dim:#5A6068;--faint:#8A8F96;--mute:#B9B4AB;--soft:#DCD7CE;--hover:#E4DFD7;
+  --accent:#8A6D3B;--ok:#1F9D55;--alarm:#B3261E;--seg-light:#CFC9BF}
+:root[data-theme=white]{color-scheme:light;
+  --paper:#FFFFFF;--ink:#000000;--dim:#555555;--faint:#999999;--mute:#BBBBBB;--soft:#E6E6E6;--hover:#F4F4F4;
+  --accent:#8A6D3B;--ok:#1F9D55;--alarm:#B3261E;--seg-light:#CFCFCF}
+:root[data-theme=black]{color-scheme:dark;
+  --paper:#000000;--ink:#FFFFFF;--dim:#9A9A9A;--faint:#666666;--mute:#4A4A4A;--soft:#262626;--hover:#141414;
+  --accent:#D8C398;--ok:#3ECF7A;--alarm:#FF6B62;--seg-light:#3A3A3A}
+:root{--rule:1.5px solid var(--ink);--mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --gutter:clamp(16px,4vw,34px);--label:11px;--body:13px;--h2:18px;--h1:28px;--track:0.06em;--pill-h:40px;--radius:0}

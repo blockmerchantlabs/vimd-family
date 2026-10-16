@@ -1,202 +1,64 @@
 {
-  "name": "IMD (current identity)",
+  "name": "IMD Family",
   "edition": 2,
-  "rationale": "No new design. The identity IMD already uses on imd.fun, its coin and IMD Radar, recorded as the default so later editions build on it.",
-  "marks": {
-    "logo": "assets/imd-icon.svg",
-    "mascot": "assets/imd-coin-pepe-256.png",
-    "variants": [
-      "assets/imdradar-pepe-variant.jpg",
-      "assets/simd-pepe-variant.jpg"
+  "reference": "https://raw.githubusercontent.com/blockmerchantlabs/vimd2-imd-official/v2/visualidentity.md",
+  "useInAJob": "Use the visual identity package at https://raw.githubusercontent.com/blockmerchantlabs/vimd2-imd-official/v2/visualidentity.md for every colour, font, layout rule and the logo.",
+  "defaultTheme": "slate",
+  "themes": [
+    "slate",
+    "stone",
+    "white",
+    "black"
+  ],
+  "tokens": "https://raw.githubusercontent.com/blockmerchantlabs/vimd2-imd-official/v2/tokens.css",
+  "colors": "https://raw.githubusercontent.com/blockmerchantlabs/vimd2-imd-official/v2/colors.json",
+  "type": {
+    "family": "IBM Plex Mono",
+    "weights": [
+      400,
+      500,
+      600
+    ],
+    "fallback": "ui-monospace, SFMono-Regular, Menlo, monospace",
+    "sizes": {
+      "label": 11,
+      "body": 13,
+      "h2": 18,
+      "h1": 28
+    },
+    "labelTracking": "0.06em"
+  },
+  "layout": {
+    "rule": "1.5px solid var(--ink)",
+    "radius": 0,
+    "gutter": "clamp(16px,4vw,34px)",
+    "maxWidth": 1100,
+    "button": "outlined pill, 40px tall",
+    "shadows": false,
+    "gradients": false
+  },
+  "logo": {
+    "familyBase": "https://raw.githubusercontent.com/blockmerchantlabs/vimd2-imd-official/v2/assets/family-base-pepe.png",
+    "familyBaseJob": "https://explorer.imd.fun/jobs/0de5b3c1-0435-4ef3-9158-00231d3cde02",
+    "familyBaseArtifact": "https://api.imd.fun/artifacts/61c6de390433a37b6c800799f11d5082150684efd972753db9e760b4e62f32de",
+    "example": "https://raw.githubusercontent.com/blockmerchantlabs/vimd2-imd-official/v2/assets/example-investor-pepe.png",
+    "exampleJob": "https://explorer.imd.fun/jobs/de4618d8-66ce-42b2-ba9b-2f13a8e88ce9",
+    "parentImdOnly": "https://raw.githubusercontent.com/blockmerchantlabs/vimd2-imd-official/v2/assets/imd-coin-pepe-800.png",
+    "changeable": [
+      "background",
+      "skin",
+      "outfit",
+      "eyes",
+      "hat or hair",
+      "moustache or accessory",
+      "frame",
+      "colours"
+    ],
+    "fixed": [
+      "face",
+      "pose",
+      "expression"
     ]
   },
-  "colors": {
-    "light": {
-      "paper": {
-        "hex": "#FFFFFF",
-        "rgb": [
-          255,
-          255,
-          255
-        ]
-      },
-      "ink": {
-        "hex": "#000000",
-        "rgb": [
-          0,
-          0,
-          0
-        ]
-      },
-      "dim": {
-        "hex": "#555555",
-        "rgb": [
-          85,
-          85,
-          85
-        ]
-      },
-      "faint": {
-        "hex": "#999999",
-        "rgb": [
-          153,
-          153,
-          153
-        ]
-      },
-      "mute": {
-        "hex": "#BBBBBB",
-        "rgb": [
-          187,
-          187,
-          187
-        ]
-      },
-      "soft": {
-        "hex": "#E6E6E6",
-        "rgb": [
-          230,
-          230,
-          230
-        ]
-      },
-      "hover": {
-        "hex": "#F4F4F4",
-        "rgb": [
-          244,
-          244,
-          244
-        ]
-      },
-      "ok": {
-        "hex": "#1F9D55",
-        "rgb": [
-          31,
-          157,
-          85
-        ]
-      },
-      "alarm": {
-        "hex": "#B3261E",
-        "rgb": [
-          179,
-          38,
-          30
-        ]
-      }
-    },
-    "dark": {
-      "paper": {
-        "hex": "#000000",
-        "rgb": [
-          0,
-          0,
-          0
-        ]
-      },
-      "ink": {
-        "hex": "#FFFFFF",
-        "rgb": [
-          255,
-          255,
-          255
-        ]
-      },
-      "dim": {
-        "hex": "#9A9A9A",
-        "rgb": [
-          154,
-          154,
-          154
-        ]
-      },
-      "faint": {
-        "hex": "#666666",
-        "rgb": [
-          102,
-          102,
-          102
-        ]
-      },
-      "mute": {
-        "hex": "#4A4A4A",
-        "rgb": [
-          74,
-          74,
-          74
-        ]
-      },
-      "soft": {
-        "hex": "#262626",
-        "rgb": [
-          38,
-          38,
-          38
-        ]
-      },
-      "hover": {
-        "hex": "#141414",
-        "rgb": [
-          20,
-          20,
-          20
-        ]
-      },
-      "ok": {
-        "hex": "#3ECF7A",
-        "rgb": [
-          62,
-          207,
-          122
-        ]
-      },
-      "alarm": {
-        "hex": "#FF6B62",
-        "rgb": [
-          255,
-          107,
-          98
-        ]
-      }
-    },
-    "radar": {
-      "mint": {
-        "hex": "#7CF5C8",
-        "rgb": [
-          124,
-          245,
-          200
-        ]
-      },
-      "ground": {
-        "hex": "#05070A",
-        "rgb": [
-          5,
-          7,
-          10
-        ]
-      }
-    }
-  },
-  "typefaces": {
-    "text": {
-      "family": "IBM Plex Mono",
-      "license": "OFL-1.1"
-    },
-    "radar": {
-      "family": "Geist, Geist Mono, Instrument Serif",
-      "license": "OFL-1.1"
-    }
-  },
-  "typeScale": [
-    10,
-    11,
-    12,
-    13,
-    18,
-    28
-  ],
-  "rule": "1.5px solid ink",
-  "license": "none granted; marks and art belong to IMD and their artists; Pepe the Frog is Matt Furie's character",
-  "provenance": "Copied 2026-10-14 from imd.fun, imdradar.site and IMD's DexScreener listing; hashes in MANIFEST.txt."
+  "showcase": "https://blockmerchantlabs.github.io/vimd2-imd-official/"
 }

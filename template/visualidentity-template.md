@@ -38,12 +38,14 @@ Square image, 1024 by 1024, PNG. No text, no letters, no watermark.
 
 ## 3. Colour, type, layout, voice
 
-Use `../tokens.css` as is. Optional: one accent colour for the project's state colour, `--accent: <hex>`, used only where IMD uses green.
+Use `../tokens.css` as is: default theme slate, switch to stone, white or black. Optional: set your own `--accent: <hex>` (one highlight per screen); keep every other token.
 
-Type stays IBM Plex Mono. Rules stay `1.5px solid`. Square corners, no gradients.
+Type stays IBM Plex Mono. Rules stay `1.5px solid`. Square corners, no gradients, no shadows.
+
+In an IMD job, one line does all of this: "Use the visual identity package at https://raw.githubusercontent.com/blockmerchantlabs/vimd2-imd-official/v2/visualidentity.md for every colour, font, layout rule and the logo."
 
 ## 4. Check before publishing
 
-- The page built from `../example/index.html` with your mark swapped in still looks like imd.fun.
+- The page built from `../example/index.html` with your mark swapped in still looks like the IMD Family showcase.
 - The mark's face is unchanged.
 - No ticker without its contract address next to it.

@@ -1,57 +1,135 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="slate">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>IMD default page</title>
-<link rel="icon" href="../assets/imd-icon.svg">
+<title>IMD Family</title>
+<link rel="icon" href="../assets/family-base-pepe.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../tokens.css">
 <style>
 *{box-sizing:border-box;margin:0}
-body{background:var(--paper);color:var(--ink);font:13px/1.5 var(--mono)}
-header{display:flex;align-items:center;justify-content:space-between;padding:12px var(--gutter);border-bottom:var(--rule)}
+html,body{background:var(--paper);color:var(--ink)}
+body{font:var(--body)/1.5 var(--mono)}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px var(--gutter);border-bottom:var(--rule)}
 .brand{display:flex;align-items:center;gap:10px;font-weight:600;letter-spacing:var(--track)}
-.brand img{width:28px;height:28px}
-[data-theme=dark] .brand img{filter:invert(1)}
+.brand img{width:28px;height:28px;border-radius:50%}
 .pill{height:var(--pill-h);padding:0 16px;border:var(--rule);background:var(--paper);color:var(--ink);font:inherit;cursor:pointer}
 .pill:hover{background:var(--hover)}
-main{padding:32px var(--gutter);display:grid;gap:24px;grid-template-columns:1fr;max-width:1100px}
-@media(min-width:760px){main{grid-template-columns:1.3fr 1fr}}
-h1{font-size:28px;font-weight:500}
+.pill.primary{border-color:var(--accent);color:var(--accent)}
+main{padding:32px var(--gutter);max-width:1100px;display:grid;gap:28px}
+h1{font-size:var(--h1);font-weight:500}
+h2{font-size:var(--h2);font-weight:500;margin-bottom:10px}
 .label{font-size:var(--label);letter-spacing:var(--track);text-transform:uppercase;color:var(--dim)}
-.box{border:var(--rule);padding:16px}
+.dim{color:var(--dim)}
+a{color:var(--accent)}
+a:focus-visible,.pill:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.grid3{display:grid;gap:16px;grid-template-columns:1fr}
+@media(min-width:760px){.grid3{grid-template-columns:repeat(3,1fr)}}
+.box{border:var(--rule);padding:14px;display:grid;gap:8px;align-content:start}
+.box img{width:100%;height:auto;display:block}
+.swatches{display:grid;gap:8px;grid-template-columns:repeat(auto-fill,minmax(120px,1fr))}
+.sw{border:var(--rule);padding:8px}
+.sw i{display:block;height:36px;border:1px solid var(--soft);margin-bottom:6px}
+table{border-collapse:collapse;width:100%}
+td,th{border-bottom:1px solid var(--soft);padding:6px 4px;text-align:left;vertical-align:top}
+th{font-weight:500;color:var(--dim);font-size:var(--label);letter-spacing:var(--track);text-transform:uppercase}
 .row{display:flex;justify-content:space-between;border-bottom:1px solid var(--soft);padding:6px 0}
 .ok{color:var(--ok)}.alarm{color:var(--alarm)}
 .seg{display:flex;gap:3px;margin-top:8px}.seg i{flex:1;height:10px;background:var(--seg-light)}.seg i.on{background:var(--ink)}
-.face{width:100%;max-width:320px;display:block;margin:auto}
+pre{border:var(--rule);padding:12px;white-space:pre-wrap;word-break:break-word;font:12px/1.5 var(--mono)}
 footer{padding:16px var(--gutter);border-top:var(--rule);color:var(--faint);font-size:11px}
 </style>
 </head>
 <body>
 <header>
-  <div class="brand"><img src="../assets/imd-icon.svg" alt="">IDENTITY.MD</div>
-  <button class="pill" onclick="var r=document.documentElement;r.dataset.theme=r.dataset.theme==='dark'?'light':'dark'">theme</button>
+  <div class="brand"><img src="../assets/family-base-pepe.png" alt="">IMD FAMILY</div>
+  <button class="pill" id="themeBtn" type="button">theme: slate</button>
 </header>
 <main>
   <section>
-    <p class="label">default page · built from visualidentity.md</p>
-    <h1>identity.md</h1>
-    <p style="margin:12px 0;color:var(--dim)">This page uses only tokens.css and the files in assets/. With the defaults it comes out as the IMD site.</p>
+    <p class="label">visualidentity.md · edition 2 entry</p>
+    <h1>IMD Family</h1>
+    <p class="dim" style="margin-top:10px">One visual identity for projects in the IMD ecosystem: IMD's style, stone and slate instead of IMD's white and black, and a lighter base Pepe instead of IMD's gold coin. This page is built only from the package.</p>
+    <p style="margin-top:12px">One line in any IMD job uses it:</p>
+<pre>Use the visual identity package at https://raw.githubusercontent.com/blockmerchantlabs/vimd2-imd-official/v2/visualidentity.md for every colour, font, layout rule and the logo.</pre>
+  </section>
+
+  <section class="grid3">
     <div class="box">
-      <p class="label">network</p>
-      <div class="row"><span>seats online</span><span class="ok">● live</span></div>
-      <div class="row"><span>jobs today</span><span>—</span></div>
-      <div class="row"><span>alarm state</span><span class="alarm">example</span></div>
-      <div class="seg"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i></div>
+      <p class="label">parent · IMD only</p>
+      <img src="../assets/imd-coin-pepe-800.png" alt="IMD's own coin Pepe">
+      <p class="dim">IMD's mark stays IMD's.</p>
+    </div>
+    <div class="box">
+      <p class="label">family base · start here</p>
+      <img src="../assets/family-base-pepe.png" alt="The family base Pepe">
+      <p class="dim">Light, neutral, plain rim. <a href="https://explorer.imd.fun/jobs/0de5b3c1-0435-4ef3-9158-00231d3cde02">image job ↗</a></p>
+    </div>
+    <div class="box">
+      <p class="label">example project</p>
+      <img src="../assets/example-investor-pepe.png" alt="Example variant in a navy suit">
+      <p class="dim">Base plus four changes. <a href="https://explorer.imd.fun/jobs/de4618d8-66ce-42b2-ba9b-2f13a8e88ce9">image job ↗</a></p>
     </div>
   </section>
-  <section class="box">
-    <p class="label">mascot</p>
-    <img class="face" src="../assets/imd-coin-pepe-800.png" alt="IMD Pepe coin">
+
+  <section>
+    <h2>Themes</h2>
+    <p class="dim" style="margin-bottom:10px">Default slate. The switch in the header cycles slate, stone, white, black.</p>
+    <div class="swatches" id="sw"></div>
+  </section>
+
+  <section class="grid3">
+    <div class="box">
+      <p class="label">network</p>
+      <div class="row"><span>status</span><span class="ok">● live</span></div>
+      <div class="row"><span>jobs today</span><span>128</span></div>
+      <div class="row"><span>errors</span><span class="alarm">2</span></div>
+      <div class="seg"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i><i></i></div>
+    </div>
+    <div class="box">
+      <p class="label">buttons</p>
+      <button class="pill primary" type="button">primary action</button>
+      <button class="pill" type="button">secondary</button>
+    </div>
+    <div class="box">
+      <p class="label">type</p>
+      <p style="font-size:var(--h1);font-weight:500">28 heading</p>
+      <p style="font-size:var(--h2);font-weight:500">18 heading</p>
+      <p>13 body text, IBM Plex Mono.</p>
+      <p class="label">11 label</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Make your mark</h2>
+    <table>
+      <tr><th>Part</th><th>Family base</th><th>Example</th></tr>
+      <tr><td>background</td><td>pale sky blue</td><td>warm beige-taupe</td></tr>
+      <tr><td>skin</td><td>lighter soft green</td><td>kept</td></tr>
+      <tr><td>outfit</td><td>light sand robe</td><td>navy suit, white shirt, navy tie</td></tr>
+      <tr><td>eyes</td><td>smug eyes</td><td>thin metal glasses</td></tr>
+      <tr><td>hat / hair</td><td>none</td><td>short white hair</td></tr>
+      <tr><td>frame</td><td>plain champagne rim</td><td>kept</td></tr>
+    </table>
+    <p class="dim" style="margin-top:8px">Face, pose and expression never change. Image-job text is in <a href="https://raw.githubusercontent.com/blockmerchantlabs/vimd2-imd-official/v2/visualidentity.md">visualidentity.md</a>, section 4.</p>
   </section>
 </main>
-<footer>marks and art belong to IMD and their artists · Pepe the Frog is Matt Furie's character</footer>
+<footer>IMD's marks belong to IMD and their artists · Pepe the Frog is Matt Furie's character · package: github.com/blockmerchantlabs/vimd2-imd-official</footer>
+<script>
+(function(){
+  var T=["slate","stone","white","black"],r=document.documentElement,b=document.getElementById("themeBtn");
+  var saved=null;try{saved=localStorage.getItem("imd-family-theme")}catch(e){}
+  function set(t){r.dataset.theme=t;b.textContent="theme: "+t;try{localStorage.setItem("imd-family-theme",t)}catch(e){}draw()}
+  b.onclick=function(){set(T[(T.indexOf(r.dataset.theme)+1)%T.length])};
+  function draw(){
+    var cs=getComputedStyle(r),names=["paper","ink","dim","soft","accent","ok","alarm"],h="";
+    names.forEach(function(n){var v=cs.getPropertyValue("--"+n).trim();h+='<div class="sw"><i style="background:'+v+'"></i><span class="label">'+n+'</span><br>'+v+'</div>'});
+    document.getElementById("sw").innerHTML=h;
+  }
+  set(T.indexOf(saved)>=0?saved:"slate");
+})();
+</script>
 </body>
 </html>
