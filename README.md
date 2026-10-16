@@ -8,6 +8,8 @@ This package records IMD's existing look (imd.fun, the IMD coin, IMD Radar and S
 - Tokens: `tokens.css`, `colors.json`, `identity.json`
 - Assets: `assets/` (IMD's own marks, taken from imd.fun and IMD's coin)
 - Example page: `example/index.html`
+- Family page: `example/family.html` (IMD official, the family base every other project starts from, and an example project, with the IMD image jobs that drew them)
+- Template: `template/visualidentity-template.md`
 - File checksums: `MANIFEST.txt`
 
 The entry's package link points at the zip attached to release `v1`; its sha256 is stored on chain with the entry.

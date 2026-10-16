@@ -1,3 +1,5 @@
+c054d33b08205f99f8f64011ee863040618c904c9ac6556a86a256b8024de3b1  ./assets/example-investor-pepe.png
+61c6de390433a37b6c800799f11d5082150684efd972753db9e760b4e62f32de  ./assets/family-base-pepe.png
 acdce76b6321d31021baf39f722b7abccb48b60ed6636e89f7cb2b79b30353d8  ./assets/imd-app-icon.png
 013756f621402dcdaa6455f16a02591fbc76a6c1dd31cdae80cae799a4b52a03  ./assets/imd-coin-pepe-256.png
 2faf88b5d5a48ed8f127fca465b45512332feb2b49ae3602cfaf59f449d7418c  ./assets/imd-coin-pepe-800.png
@@ -9,8 +11,9 @@ d74d55a32f98b4f1ee7b445d8eb8af574e367ea478c5404117c961b2ab73be88  ./assets/imd-s
 0b76bf8d03495a636d643a5f257f8a37fc9c3c0ba8a0725c9a32015ed87e15fa  ./assets/imdradar-pepe-variant.jpg
 d0781736c5110716e34f1262f92d86e1e7b4f5bcfe7ddb274dc98ae2a69c54dc  ./assets/simd-pepe-variant.jpg
 372dd60383f9b843d0f5e28908fc838166c28d5f0dbf69be2a1c359c6d669ac2  ./colors.json
+3a3dc7e38d9ba5772c2e6da9436bc41b971170d62142c54f793d94e228c03360  ./example/family.html
 b8a181d91322b99a64d8fd19a6f5abd4533ea5d3c8fa600c888a1cd2719e548d  ./example/index.html
 b6866594161683863a07b5665762552a939bfcecda9612028bc8e2ccdadb7c81  ./identity.json
-9efe0a2f2f77ca1d52533d6acaa864e1d04f32ce5cc74d2baca887da32ed62e1  ./template/visualidentity-template.md
+43bd412aa79bb5d3479dc25851a2ada2963f785784994a050d86eba3cfc2d41b  ./template/visualidentity-template.md
 9c13d3934864a3ec88ee5acaf556ddd9a7fd0a4ea5b27944654e40dd26dbe309  ./tokens.css
-14cf7bafa9829c962cf65447b32a0c0acef9c0c17a21d0dd455d1e614eaa85e0  ./visualidentity.md
+b1b9be9a04b69a2c7e7e32742307d270c6be4b3418f14c3b2afd8fdf1b1c1d77  ./visualidentity.md

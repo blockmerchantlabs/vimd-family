@@ -11,23 +11,26 @@ Copy this file next to a copy of this package, fill in every `<…>`, and keep t
 
 ## 2. Mark
 
-Start from `../assets/imd-coin-pepe-800.png`. Keep the bust, pose, face and expression. Change one or two traits only, and name them:
+Start from the family base, `../assets/family-base-pepe.png` (drawn by IMD image job https://explorer.imd.fun/jobs/0de5b3c1-0435-4ef3-9158-00231d3cde02, image https://api.imd.fun/artifacts/61c6de390433a37b6c800799f11d5082150684efd972753db9e760b4e62f32de). It is IMD's coin Pepe in a light, neutral palette: IMD's own gold coin stays IMD's. Keep the bust, pose, face and expression. Change any of these slots, and name them:
 
-| Slot | IMD base | This project |
+| Slot | Family base | This project |
 |---|---|---|
-| Outfit | orange robe | `<keep / change to …>` |
+| Background | pale pastel sky blue | `<keep / change to …>` |
+| Skin | lighter soft green | `<keep / change to …>` |
+| Outfit | light sand robe, pale tan underlayer | `<keep / change to …>` |
 | Eyes | smug eyes | `<keep / change to …>` |
-| Head | nothing | `<keep / change to …>` |
-| Accessory | nothing | `<keep / change to …>` |
-| Frame | gold coin with stars | `<keep / change to …>` |
-| Ground | royal blue | `<keep / change to …>` |
+| Hat / hair | nothing | `<keep / change to …>` |
+| Moustache / accessory | nothing | `<keep / change to …>` |
+| Frame | plain thin round rim, pale champagne | `<keep / change to …>` |
+
+Keep the background and the skin clearly different colours.
 
 Examples already in use: IMD Radar (black suit and tie, cyborg eye with red laser, green radar ring); SIMD (Einstein hair, white coat, line art).
 
-Request text for an IMD image job (0.5 IMD), with your traits filled in:
+Request text for an IMD image job (0.5 IMD), with your changes filled in (run it as a continuation of the base job if you paid for it, or as a new job):
 
 ```
-Draw the IMD coin Pepe: the smug Pepe the Frog bust from IMD's coin logo, same pose, same face and expression, centred, shoulders up. Keep IMD's coin-art rendering: clean outlines, flat colour, soft shading. Change only these traits:
+Draw a variant of the neutral default IMD coin Pepe. Start from the template image https://api.imd.fun/artifacts/61c6de390433a37b6c800799f11d5082150684efd972753db9e760b4e62f32de: the smug Pepe the Frog bust, centred, shoulders up, with lighter soft-green skin, inside a plain thin round pale champagne rim, in IMD's coin-art rendering with outlines and soft shading. Keep the bust, pose, face, expression, rim and rendering exactly as in the template. Change only these things:
 - <slot>: <new trait>
 - <slot>: <new trait>
 Square image, 1024 by 1024, PNG. No text, no letters, no watermark.

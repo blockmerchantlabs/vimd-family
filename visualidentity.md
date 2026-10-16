@@ -70,4 +70,4 @@ Every file here was copied on 2026-10-14 from IMD's public pages: imd.fun (icon,
 
 ## 8. Make your own
 
-`template/visualidentity-template.md` is a fill-in copy of this guide for a new project in the IMD style: keep the tokens, type and rules, and make the mark the IMD coin Pepe with one or two trait changes. It includes the image-job request text to draw that mark.
+`template/visualidentity-template.md` is a fill-in copy of this guide for a new project in the IMD style: keep the tokens, type and rules, and start the mark from the family base, `assets/family-base-pepe.png`: IMD's coin Pepe in a light neutral palette, with a plain rim instead of IMD's gold star coin. Change its background, skin, outfit, eyes, hat or hair, moustache or accessory, or frame. The template includes the image-job request text. `example/family.html` shows the three side by side (IMD official, family base, an example project) with the two image jobs that drew them.
