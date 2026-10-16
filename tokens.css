@@ -1,4 +1,4 @@
-/* IMD Family visual identity, tokens. Default theme: slate. Others: stone, white, black.
+/* VIMD Family visual identity, tokens. Default theme: slate. Others: stone, white, black.
    Set the theme with <html data-theme="slate|stone|white|black">. No attribute = slate. */
 :root,:root[data-theme=slate]{color-scheme:dark;
   --paper:#1C2128;--ink:#E8E4DC;--dim:#A3A9B1;--faint:#6E7681;--mute:#4A525C;--soft:#2A313A;--hover:#242A32;

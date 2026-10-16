@@ -1,8 +1,8 @@
 {
-  "name": "IMD Family",
+  "name": "VIMD Family",
   "edition": 2,
-  "reference": "https://raw.githubusercontent.com/blockmerchantlabs/vimd2-imd-official/v2/visualidentity.md",
-  "useInAJob": "Use the visual identity package at https://raw.githubusercontent.com/blockmerchantlabs/vimd2-imd-official/v2/visualidentity.md for every colour, font, layout rule and the logo.",
+  "reference": "https://raw.githubusercontent.com/blockmerchantlabs/vimd-family/v3/visualidentity.md",
+  "useInAJob": "Use the visual identity package at https://raw.githubusercontent.com/blockmerchantlabs/vimd-family/v3/visualidentity.md for every colour, font, layout rule and the logo.",
   "defaultTheme": "slate",
   "themes": [
     "slate",
@@ -10,8 +10,8 @@
     "white",
     "black"
   ],
-  "tokens": "https://raw.githubusercontent.com/blockmerchantlabs/vimd2-imd-official/v2/tokens.css",
-  "colors": "https://raw.githubusercontent.com/blockmerchantlabs/vimd2-imd-official/v2/colors.json",
+  "tokens": "https://raw.githubusercontent.com/blockmerchantlabs/vimd-family/v3/tokens.css",
+  "colors": "https://raw.githubusercontent.com/blockmerchantlabs/vimd-family/v3/colors.json",
   "type": {
     "family": "IBM Plex Mono",
     "weights": [
@@ -38,12 +38,12 @@
     "gradients": false
   },
   "logo": {
-    "familyBase": "https://raw.githubusercontent.com/blockmerchantlabs/vimd2-imd-official/v2/assets/family-base-pepe.png",
+    "familyBase": "https://raw.githubusercontent.com/blockmerchantlabs/vimd-family/v3/assets/family-base-pepe.png",
     "familyBaseJob": "https://explorer.imd.fun/jobs/0de5b3c1-0435-4ef3-9158-00231d3cde02",
     "familyBaseArtifact": "https://api.imd.fun/artifacts/61c6de390433a37b6c800799f11d5082150684efd972753db9e760b4e62f32de",
-    "example": "https://raw.githubusercontent.com/blockmerchantlabs/vimd2-imd-official/v2/assets/example-investor-pepe.png",
+    "example": "https://raw.githubusercontent.com/blockmerchantlabs/vimd-family/v3/assets/example-investor-pepe.png",
     "exampleJob": "https://explorer.imd.fun/jobs/de4618d8-66ce-42b2-ba9b-2f13a8e88ce9",
-    "parentImdOnly": "https://raw.githubusercontent.com/blockmerchantlabs/vimd2-imd-official/v2/assets/imd-coin-pepe-800.png",
+    "parentImdOnly": "https://raw.githubusercontent.com/blockmerchantlabs/vimd-family/v3/assets/imd-coin-pepe-800.png",
     "changeable": [
       "background",
       "skin",
@@ -60,5 +60,5 @@
       "expression"
     ]
   },
-  "showcase": "https://blockmerchantlabs.github.io/vimd2-imd-official/"
+  "showcase": "https://blockmerchantlabs.github.io/vimd-family/"
 }

@@ -1,19 +1,19 @@
-# visualidentity.md template: a project in the IMD style
+# visualidentity.md template: start from the VIMD Family
 
-Copy this file next to a copy of this package, fill in every `<…>`, and keep the rest. A project built from it reads as part of IMD: same paper and ink, same type, same rules, and a mark that is the IMD coin Pepe with one change.
+A fill-in copy for a project that wants to start from the VIMD Family. Fill in the `<…>` parts you need, keep what suits you, and change the rest.
 
 ## 1. Project
 
 - Name: `<project name>`
 - One line: `<what it does, in under 12 words>`
 - Launch record: `<IMD launch number or contract address, once it exists>`
-- Ticker: leave empty until the contract exists, and always show it with the contract address.
+- Ticker: `<optional; reads best next to the contract address>`
 
 ## 2. Mark
 
-Start from the family base, `../assets/family-base-pepe.png` (drawn by IMD image job https://explorer.imd.fun/jobs/0de5b3c1-0435-4ef3-9158-00231d3cde02, image https://api.imd.fun/artifacts/61c6de390433a37b6c800799f11d5082150684efd972753db9e760b4e62f32de). It is IMD's coin Pepe in a light, neutral palette: IMD's own gold coin stays IMD's. Keep the bust, pose, face and expression. Change any of these slots, and name them:
+Start from the family base, `../assets/family-base-pepe.png` (drawn by IMD image job https://explorer.imd.fun/jobs/0de5b3c1-0435-4ef3-9158-00231d3cde02, image https://api.imd.fun/artifacts/61c6de390433a37b6c800799f11d5082150684efd972753db9e760b4e62f32de). It is a lighter version of IMD's coin Pepe. Change any of these parts:
 
-| Slot | Family base | This project |
+| Part | Family base | This project |
 |---|---|---|
 | Background | pale pastel sky blue | `<keep / change to …>` |
 | Skin | lighter soft green | `<keep / change to …>` |
@@ -23,29 +23,27 @@ Start from the family base, `../assets/family-base-pepe.png` (drawn by IMD image
 | Moustache / accessory | nothing | `<keep / change to …>` |
 | Frame | plain thin round rim, pale champagne | `<keep / change to …>` |
 
-Keep the background and the skin clearly different colours.
+A background that differs clearly from the skin tends to read best.
 
-Examples already in use: IMD Radar (black suit and tie, cyborg eye with red laser, green radar ring); SIMD (Einstein hair, white coat, line art).
+Other Pepe variants in the IMD community, for ideas: IMD Radar (black suit and tie, cyborg eye with red laser, green radar ring); SIMD (Einstein hair, white coat, line art).
 
 Request text for an IMD image job (0.5 IMD), with your changes filled in (run it as a continuation of the base job if you paid for it, or as a new job):
 
 ```
-Draw a variant of the neutral default IMD coin Pepe. Start from the template image https://api.imd.fun/artifacts/61c6de390433a37b6c800799f11d5082150684efd972753db9e760b4e62f32de: the smug Pepe the Frog bust, centred, shoulders up, with lighter soft-green skin, inside a plain thin round pale champagne rim, in IMD's coin-art rendering with outlines and soft shading. Keep the bust, pose, face, expression, rim and rendering exactly as in the template. Change only these things:
-- <slot>: <new trait>
-- <slot>: <new trait>
+Draw a variant of the VIMD Family base Pepe, a lighter version of IMD's coin Pepe. Start from the template image https://api.imd.fun/artifacts/61c6de390433a37b6c800799f11d5082150684efd972753db9e760b4e62f32de: the smug Pepe the Frog bust, centred, shoulders up, with lighter soft-green skin, inside a plain thin round pale champagne rim, with outlines and soft shading. Keep the bust, pose, face, expression, rim and rendering as in the template. Change only these things:
+- <part>: <new look>
+- <part>: <new look>
 Square image, 1024 by 1024, PNG. No text, no letters, no watermark.
 ```
 
-## 3. Colour, type, layout, voice
+## 3. Colour, type, layout
 
-Use `../tokens.css` as is: default theme slate, switch to stone, white or black. Optional: set your own `--accent: <hex>` (one highlight per screen); keep every other token.
+`../tokens.css` gives four themes (slate by default, stone, white, black). Common changes: your own `--accent: <hex>`, a different default theme, or your own font. Change as much or as little as you like.
 
-Type stays IBM Plex Mono. Rules stay `1.5px solid`. Square corners, no gradients, no shadows.
+In a job, one line brings in the whole package: "Use the visual identity package at https://raw.githubusercontent.com/blockmerchantlabs/vimd-family/v3/visualidentity.md for every colour, font, layout rule and the logo."
 
-In an IMD job, one line does all of this: "Use the visual identity package at https://raw.githubusercontent.com/blockmerchantlabs/vimd2-imd-official/v2/visualidentity.md for every colour, font, layout rule and the logo."
+## 4. Quick check (optional)
 
-## 4. Check before publishing
-
-- The page built from `../example/index.html` with your mark swapped in still looks like the IMD Family showcase.
-- The mark's face is unchanged.
-- No ticker without its contract address next to it.
+- Swap your mark into `../example/index.html` to preview it in all four themes.
+- The mark still reads at 28 px.
+- A ticker, if any, sits next to its contract address.

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>IMD Family</title>
+<title>VIMD Family</title>
 <link rel="icon" href="../assets/family-base-pepe.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -44,39 +44,39 @@ footer{padding:16px var(--gutter);border-top:var(--rule);color:var(--faint);font
 </head>
 <body>
 <header>
-  <div class="brand"><img src="../assets/family-base-pepe.png" alt="">IMD FAMILY</div>
+  <div class="brand"><img src="../assets/family-base-pepe.png" alt="">VIMD FAMILY</div>
   <button class="pill" id="themeBtn" type="button">theme: slate</button>
 </header>
 <main>
   <section>
     <p class="label">visualidentity.md · edition 2 entry</p>
-    <h1>IMD Family</h1>
-    <p class="dim" style="margin-top:10px">One visual identity for projects in the IMD ecosystem: IMD's style, stone and slate instead of IMD's white and black, and a lighter base Pepe instead of IMD's gold coin. This page is built only from the package.</p>
-    <p style="margin-top:12px">One line in any IMD job uses it:</p>
-<pre>Use the visual identity package at https://raw.githubusercontent.com/blockmerchantlabs/vimd2-imd-official/v2/visualidentity.md for every colour, font, layout rule and the logo.</pre>
+    <h1>VIMD Family</h1>
+    <p class="dim" style="margin-top:10px">A small, ready-made visual identity for when a project, or the AI building it, has no design preference yet. Use it as is, change any part, or use none of it. Four themes, one font, a few layout rules and a neutral logo to start from. This page is built only from the package.</p>
+    <p style="margin-top:12px">One line in a job is enough:</p>
+<pre>Use the visual identity package at https://raw.githubusercontent.com/blockmerchantlabs/vimd-family/v3/visualidentity.md for every colour, font, layout rule and the logo.</pre>
   </section>
 
   <section class="grid3">
     <div class="box">
-      <p class="label">parent · IMD only</p>
+      <p class="label">IMD's logo · for reference</p>
       <img src="../assets/imd-coin-pepe-800.png" alt="IMD's own coin Pepe">
-      <p class="dim">IMD's mark stays IMD's.</p>
+      <p class="dim">The coin logo the base comes from.</p>
     </div>
     <div class="box">
-      <p class="label">family base · start here</p>
+      <p class="label">family base</p>
       <img src="../assets/family-base-pepe.png" alt="The family base Pepe">
-      <p class="dim">Light, neutral, plain rim. <a href="https://explorer.imd.fun/jobs/0de5b3c1-0435-4ef3-9158-00231d3cde02">image job ↗</a></p>
+      <p class="dim">A neutral starting point. <a href="https://explorer.imd.fun/jobs/0de5b3c1-0435-4ef3-9158-00231d3cde02">image job ↗</a></p>
     </div>
     <div class="box">
-      <p class="label">example project</p>
+      <p class="label">example variant</p>
       <img src="../assets/example-investor-pepe.png" alt="Example variant in a navy suit">
-      <p class="dim">Base plus four changes. <a href="https://explorer.imd.fun/jobs/de4618d8-66ce-42b2-ba9b-2f13a8e88ce9">image job ↗</a></p>
+      <p class="dim">The base with four parts changed. <a href="https://explorer.imd.fun/jobs/de4618d8-66ce-42b2-ba9b-2f13a8e88ce9">image job ↗</a></p>
     </div>
   </section>
 
   <section>
     <h2>Themes</h2>
-    <p class="dim" style="margin-bottom:10px">Default slate. The switch in the header cycles slate, stone, white, black.</p>
+    <p class="dim" style="margin-bottom:10px">Slate by default. The switch in the header tries stone, white and black.</p>
     <div class="swatches" id="sw"></div>
   </section>
 
@@ -103,7 +103,7 @@ footer{padding:16px var(--gutter);border-top:var(--rule);color:var(--faint);font
   </section>
 
   <section>
-    <h2>Make your mark</h2>
+    <h2>Making a variant</h2>
     <table>
       <tr><th>Part</th><th>Family base</th><th>Example</th></tr>
       <tr><td>background</td><td>pale sky blue</td><td>warm beige-taupe</td></tr>
@@ -113,15 +113,15 @@ footer{padding:16px var(--gutter);border-top:var(--rule);color:var(--faint);font
       <tr><td>hat / hair</td><td>none</td><td>short white hair</td></tr>
       <tr><td>frame</td><td>plain champagne rim</td><td>kept</td></tr>
     </table>
-    <p class="dim" style="margin-top:8px">Face, pose and expression never change. Image-job text is in <a href="https://raw.githubusercontent.com/blockmerchantlabs/vimd2-imd-official/v2/visualidentity.md">visualidentity.md</a>, section 4.</p>
+    <p class="dim" style="margin-top:8px">Keeping the face, pose and expression keeps variants recognisable; everything else is open. Image-job text is in <a href="https://raw.githubusercontent.com/blockmerchantlabs/vimd-family/v3/visualidentity.md">visualidentity.md</a>, section 4.</p>
   </section>
 </main>
-<footer>IMD's marks belong to IMD and their artists · Pepe the Frog is Matt Furie's character · package: github.com/blockmerchantlabs/vimd2-imd-official</footer>
+<footer>Free to use · IMD's marks belong to IMD and their artists · Pepe the Frog is Matt Furie's character · package: github.com/blockmerchantlabs/vimd-family</footer>
 <script>
 (function(){
   var T=["slate","stone","white","black"],r=document.documentElement,b=document.getElementById("themeBtn");
-  var saved=null;try{saved=localStorage.getItem("imd-family-theme")}catch(e){}
-  function set(t){r.dataset.theme=t;b.textContent="theme: "+t;try{localStorage.setItem("imd-family-theme",t)}catch(e){}draw()}
+  var saved=null;try{saved=localStorage.getItem("vimd-family-theme")}catch(e){}
+  function set(t){r.dataset.theme=t;b.textContent="theme: "+t;try{localStorage.setItem("vimd-family-theme",t)}catch(e){}draw()}
   b.onclick=function(){set(T[(T.indexOf(r.dataset.theme)+1)%T.length])};
   function draw(){
     var cs=getComputedStyle(r),names=["paper","ink","dim","soft","accent","ok","alarm"],h="";
