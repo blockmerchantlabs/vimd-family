@@ -15,17 +15,19 @@ Four themes, one set of token names. **Default: slate.** A site offers a theme s
 | `--paper` | `#1C2128` | `#ECE8E1` | `#FFFFFF` | `#000000` | page ground |
 | `--ink` | `#E8E4DC` | `#222831` | `#000000` | `#FFFFFF` | text, rules, icons |
 | `--dim` | `#A3A9B1` | `#5A6068` | `#555555` | `#9A9A9A` | secondary text |
-| `--faint` | `#6E7681` | `#8A8F96` | `#999999` | `#666666` | captions, footers |
+| `--faint` | `#6E7681` | `#7D828A` | `#8C8C8C` | `#666666` | captions, footers (non-essential, ≥3:1) |
 | `--mute` | `#4A525C` | `#B9B4AB` | `#BBBBBB` | `#4A4A4A` | disabled |
 | `--soft` | `#2A313A` | `#DCD7CE` | `#E6E6E6` | `#262626` | table lines, fills |
 | `--hover` | `#242A32` | `#E4DFD7` | `#F4F4F4` | `#141414` | hover fill |
-| `--accent` | `#D8C398` | `#8A6D3B` | `#8A6D3B` | `#D8C398` | links, focus ring, one highlight per screen |
-| `--ok` | `#3ECF7A` | `#1F9D55` | `#1F9D55` | `#3ECF7A` | live, success |
+| `--accent` | `#D8C398` | `#7A5F30` | `#8A6D3B` | `#D8C398` | links, focus ring, one highlight per screen |
+| `--ok` | `#3ECF7A` | `#13703C` | `#13793F` | `#3ECF7A` | live, success |
 | `--alarm` | `#FF6B62` | `#B3261E` | `#B3261E` | `#FF6B62` | errors only |
 
-Stylesheet with all four: https://raw.githubusercontent.com/blockmerchantlabs/vimd2-imd-official/v2/tokens.css (set `<html data-theme="slate|stone|white|black">`; no attribute means slate). Machine-readable: `colors.json`, `identity.json`.
+Stylesheet with all four: https://raw.githubusercontent.com/blockmerchantlabs/vimd2-imd-official/v2/tokens.css (set `<html data-theme="slate|stone|white|black">`; no attribute means slate). Machine-readable: `colors.json`, `identity.json`, and `tokens.json` (W3C Design Tokens format).
 
 Colour means state: green live, red alarm, accent for the one thing to click. Everything else is paper and ink.
+
+Contrast, checked for every theme: `--ink`, `--dim`, `--accent`, `--ok` and `--alarm` are at least 4.5:1 on `--paper` (WCAG AA for body text); `--faint` is at least 3:1 and is only for captions. The accent is the colour of the logo's champagne rim, so the mark and the interface share one highlight.
 
 ## 2. Type
 
@@ -79,6 +81,7 @@ Terse, technical, plain. Say what the contract does and link the record. A ticke
 - `visualidentity.md`: this guide (the one link a job needs)
 - `tokens.css`: the four themes as CSS variables
 - `colors.json`, `identity.json`: the same values for code
+- `tokens.json`: the same tokens in the W3C Design Tokens format (2025.10), for Figma, Tokens Studio and Style Dictionary
 - `assets/`: family base, example project, and IMD's own marks for reference (`imd-icon.svg`, `imd-coin-pepe-*.png`, Radar and SIMD variants)
 - `example/index.html`: the showcase, built only from this package, slate by default
 - `template/visualidentity-template.md`: fill-in copy for a new project

@@ -9,7 +9,7 @@ One complete visual identity for projects in the IMD ecosystem: IMD's style in s
 > Use the visual identity package at https://raw.githubusercontent.com/blockmerchantlabs/vimd2-imd-official/v2/visualidentity.md for every colour, font, layout rule and the logo.
 
 - Guide: `visualidentity.md` (self-contained; every file it names has an absolute link at tag `v2`)
-- Tokens: `tokens.css`, `colors.json`, `identity.json`
+- Tokens: `tokens.css`, `colors.json`, `identity.json`, `tokens.json` (W3C Design Tokens format)
 - Marks: `assets/family-base-pepe.png` (start here), `assets/example-investor-pepe.png` (example), IMD's own marks for reference
 - Showcase: `example/index.html`, live at https://blockmerchantlabs.github.io/vimd2-imd-official/
 - Template for a new project: `template/visualidentity-template.md`
