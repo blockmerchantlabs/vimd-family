@@ -1,0 +1,3 @@
+/* IMD visual identity tokens, copied from imd.fun's stylesheet on 2026-10-14. */
+:root{color-scheme:light;--paper:#fff;--ink:#000;--dim:#555;--faint:#999;--mute:#bbb;--soft:#e6e6e6;--hover:#f4f4f4;--seg-mid:#666;--seg-light:#cfcfcf;--alarm:#b3261e;--ok:#1f9d55;--rule:1.5px solid var(--ink);--mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;--gutter:clamp(16px,4vw,34px);--label:11px;--track:0.06em;--pill-h:40px}
+:root[data-theme=dark]{color-scheme:dark;--paper:#000;--ink:#fff;--dim:#9a9a9a;--faint:#666;--mute:#4a4a4a;--soft:#262626;--hover:#141414;--seg-mid:#8a8a8a;--seg-light:#3a3a3a;--alarm:#ff6b62;--ok:#3ecf7a;--rule:1.5px solid #fff}

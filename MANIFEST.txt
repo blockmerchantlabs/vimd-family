@@ -1,0 +1,15 @@
+acdce76b6321d31021baf39f722b7abccb48b60ed6636e89f7cb2b79b30353d8  ./assets/imd-app-icon.png
+013756f621402dcdaa6455f16a02591fbc76a6c1dd31cdae80cae799a4b52a03  ./assets/imd-coin-pepe-256.png
+2faf88b5d5a48ed8f127fca465b45512332feb2b49ae3602cfaf59f449d7418c  ./assets/imd-coin-pepe-800.png
+9d56faf4b95708da4badbf74727a3c9c6345bcd35f9b423e76999979fbeed03e  ./assets/imd-favicon.ico
+cd6887fca02e8d97f904937db7e14f43a88f82258b07bb0a3b827525e0283198  ./assets/imd-icon.svg
+232752e76e786b55ee0e743e4509123a5121efd03bb66bb81ec8aecd8808ce81  ./assets/imd-share-card.png
+d74d55a32f98b4f1ee7b445d8eb8af574e367ea478c5404117c961b2ab73be88  ./assets/imd-site-pepe-walk.webp
+9afaebc9605ecec92f097922b54f285bb43d4c2d62e2ab8340d505f96d75c993  ./assets/imdradar-icon.svg
+0b76bf8d03495a636d643a5f257f8a37fc9c3c0ba8a0725c9a32015ed87e15fa  ./assets/imdradar-pepe-variant.jpg
+d0781736c5110716e34f1262f92d86e1e7b4f5bcfe7ddb274dc98ae2a69c54dc  ./assets/simd-pepe-variant.jpg
+372dd60383f9b843d0f5e28908fc838166c28d5f0dbf69be2a1c359c6d669ac2  ./colors.json
+b8a181d91322b99a64d8fd19a6f5abd4533ea5d3c8fa600c888a1cd2719e548d  ./example/index.html
+b6866594161683863a07b5665762552a939bfcecda9612028bc8e2ccdadb7c81  ./identity.json
+9c13d3934864a3ec88ee5acaf556ddd9a7fd0a4ea5b27944654e40dd26dbe309  ./tokens.css
+35ee36debc4966bc79cccf4131e48edbd63f16e8971cdae248aa22275d2b0cfb  ./visualidentity.md
